@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    tools:context=".menu">
+
+    <TextView
+        android:id="@+id/nama_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Tambah Barang"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Barang" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga Barang" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextDesg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Barang" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextSalary" />
+
+    <Button
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Add  Barang"
+        android:id="@+id/buttonAdd"
+        android:background="#f1d100"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:text="View Barang"
+        android:id="@+id/buttonView"
+        android:background="#05dc49"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="logout"
+        android:id="@+id/buttonlogout"
+        android:background="#ff1e00"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+</LinearLayout>

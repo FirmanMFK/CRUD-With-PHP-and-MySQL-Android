@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    tools:context=".menu_users">
+
+    <TextView
+        android:id="@+id/nama_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Tambah Users"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextUsername" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextPassword" />
+
+    <Button
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:text="Add Users"
+        android:id="@+id/buttonAdd"
+        android:background="#0066ff"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        />
+
+    <Button
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:text="View Users"
+        android:id="@+id/buttonViewUsers"
+        android:background="#007bff"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"/>
+    <Button
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:text="logout"
+        android:id="@+id/buttonlogout"
+        android:background="#0073ff"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"/>
+</LinearLayout>
